@@ -1,15 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Si Proyecto</title>
-	<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Website with a contact Form 01</title>
+    <link rel="stylesheet" href="assets/css/stylelogin.css">
+    <!-- GOOGLE FONTs -->
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 </head>
 <body>
-	<main>
-		
-	</main>
-	<script src="assets/js/bootstrap.min.js"></script>
-	<script src="assets/js/jquery.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
+    
+    <div class="content">
+
+        <h1 class="logo">¿Quien es <span>Quien?</span></h1>
+
+        <div class="contact-wrapper animated bounceInUp">
+            <div class="contact-form">
+                <p>
+                    <center><img src="assets/img/suspects.png"></center>
+
+                </p>
+            </div>
+            <div class="contact-info">
+                <h3>Registrarse</h3>
+                <div class="contact-form">
+                    
+                        <p>
+                            <label>NickName</label>
+                            <input type="text" name="nickName" id="nickName">
+                        </p>
+                           
+                        <p>
+                            <label>Contraseña</label>
+                            <input type="password" name="password" id="password">
+                        </p>
+                        <p class="block">
+                            <button id="loginButton">
+                                Iniciar Sesión
+                            </button>
+                        </p>
+
+                        <p class="block">
+                        ¿No tienes cuenta?
+                        <a style="color: white" href="Registrarse.html">
+                            Registrate
+                        </a>
+                    </p>
+                    
+            </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="assets/js/logic.js"></script>
+
 </body>
 </html>
