@@ -1,4 +1,4 @@
 git init
 git add .
-git commit -m "Acutalizacion evidencias"
+git commit -m "Login funcional"
 git push -u origin master
